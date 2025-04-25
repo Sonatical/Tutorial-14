@@ -60,7 +60,7 @@ function pokerCard(cardSuit, cardRank) {
 // Method to reference the image source file for each card.
 pokerCard.prototype.cardImage = function() {
    var suitAbbr = this.suit.substring(0, 1).toLowerCase();
-   return "../imgs/" + suitAbbr + this.rankValue + ".png";
+   return "./imgs/" + suitAbbr + this.rankValue + ".png";
  };
 
  // Replace a card with one from the deck
